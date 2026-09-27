@@ -1,0 +1,51 @@
+{
+  "selected_threshold": 0.99,
+  "validation_precision": 1.0,
+  "validation_recall": 1.0,
+  "validation_f0_5": 1.0,
+  "predicted_positives": 337,
+  "predicted_positive_rate": 0.14420196833547283,
+  "confusion_matrix": {
+    "tp": 337,
+    "fp": 0,
+    "tn": 2000,
+    "fn": 0
+  },
+  "source_breakdown": {
+    "S2": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f0_5": 1.0
+    },
+    "S3": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f0_5": 1.0
+    }
+  },
+  "multi_match_profile": {
+    "total_source1_entities": 200,
+    "predicted_distribution": {
+      "zero_matches_count": 25,
+      "zero_matches_pct": 0.125,
+      "one_match_count": 76,
+      "one_match_pct": 0.38,
+      "multi_matches_count": 99,
+      "multi_matches_pct": 0.495,
+      "average_matches_per_s1": 1.685,
+      "max_matches_per_s1": 4
+    },
+    "ground_truth_distribution": {
+      "zero_matches_count": 25,
+      "zero_matches_pct": 0.125,
+      "one_match_count": 76,
+      "one_match_pct": 0.38,
+      "multi_matches_count": 99,
+      "multi_matches_pct": 0.495,
+      "average_matches_per_s1": 1.685,
+      "max_matches_per_s1": 4
+    }
+  },
+  "selection_criterion": "Maximum validation F0.5 with precision-conservative tie-breaking",
+  "timestamp": "2026-09-26T13:00:49.407280+00:00"
+}

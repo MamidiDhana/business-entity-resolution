@@ -1,0 +1,65 @@
+{
+  "overall_metrics": {
+    "total_pairs": 2337,
+    "positive_pairs": 337,
+    "negative_pairs": 2000,
+    "positive_rate": 0.14420196833547283,
+    "true_positives": 337,
+    "false_positives": 0,
+    "true_negatives": 2000,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f0_5": 1.0,
+    "roc_auc": 1.0,
+    "average_precision": 1.0
+  },
+  "source_metrics": {
+    "S2": {
+      "total_pairs": 1158,
+      "positive_pairs": 158,
+      "negative_pairs": 1000,
+      "positive_rate": 0.13644214162348878,
+      "true_positives": 158,
+      "false_positives": 0,
+      "true_negatives": 1000,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f0_5": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0
+    },
+    "S3": {
+      "total_pairs": 1179,
+      "positive_pairs": 179,
+      "negative_pairs": 1000,
+      "positive_rate": 0.15182357930449533,
+      "true_positives": 179,
+      "false_positives": 0,
+      "true_negatives": 1000,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f0_5": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0
+    }
+  },
+  "multi_match_stats": {
+    "total_source1_entities": 200,
+    "entities_with_zero_true_matches": 25,
+    "entities_with_zero_true_matches_pct": 0.125,
+    "entities_with_one_true_match": 76,
+    "entities_with_one_true_match_pct": 0.38,
+    "entities_with_multiple_true_matches": 99,
+    "entities_with_multiple_true_matches_pct": 0.495,
+    "max_true_matches_per_entity": 4,
+    "average_true_matches_per_entity": 1.685
+  },
+  "train_pairs": 9430,
+  "val_pairs": 2337,
+  "train_duration_seconds": 15.140139299997827,
+  "val_duration_seconds": 0.038141000011819415,
+  "peak_memory_mb": 10.630855560302734
+}

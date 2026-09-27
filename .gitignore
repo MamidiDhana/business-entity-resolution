@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+.DS_Store
+*.log
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+
+# Ignore large datasets
+dataset/
+
+# Keep output structure but ignore generated result files unless intentionally tracked
+output/*.tsv
+output/tmp/
+output/dataset_analysis.txt
+
