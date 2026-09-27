@@ -19,6 +19,8 @@ dataset/
 
 # Keep output structure but ignore generated result files unless intentionally tracked
 output/*.tsv
+!output/matching_results.tsv
 output/tmp/
 output/dataset_analysis.txt
+
 
